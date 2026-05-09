@@ -295,3 +295,14 @@ python app.py --port 8051
 ```bash
 app.run(debug=True, port=8051)
 ```
+---
+
+## Interview Talking Points
+
+- Developed an interactive XRP/USD analytics dashboard using Python, Dash, Plotly, and Pandas.
+- Built visualizations for price trends, moving averages, daily returns, and rolling volatility.
+- Structured and cleaned historical cryptocurrency market data for dashboard consumption.
+- Implemented interactive dashboard controls such as date filtering and configurable moving averages.
+- Used statistical calculations to analyze market volatility and return distributions.
+- Designed the dashboard to present data in a clean and easy-to-understand format for analysis.
+- Worked with time-series financial data and automated CSV-based data ingestion workflows.
