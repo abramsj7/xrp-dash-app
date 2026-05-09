@@ -22,6 +22,16 @@ This application is designed to be explanatory—helping users understand price 
 
 ---
 
+## Dashboard Preview
+
+### Dashboard Overview
+![Dashboard Overview](images/dashboard-1.JPG)
+
+### Returns & Volatility Analysis
+![Returns & Volatility](images/dashboard-2.JPG)
+
+---
+
 ## 2. Folder Structure
 
 xrp-dash-app/  
