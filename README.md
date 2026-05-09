@@ -32,24 +32,35 @@ This application is designed to be explanatory—helping users understand price 
 
 ---
 
+
 ## 2. Folder Structure
 
-xrp-dash-app/  
-├── app.py  
-├── xrp.csv                  
-├── requirements.txt         
-└── README.md              
+```
+xrp-dash-app/
+├── app.py
+├── requirements.txt
+├── README.md
+├── data/
+│   └── xrp.csv
+└── images/
+    ├── dashboard-1.JPG
+    └── dashboard-2.JPG
+```      
 
+- `app.py`
+  - Main Dash application used to launch the interactive dashboard.
 
-- `app.py`  
-  - The main Dash application. Running `python app.py` launches the app on localhost:8050.
-- `xrp.csv`  
-  - Contains daily OHLC, volume, and other fields for XRP-USD sourced from Yahoo Finance.  
-  - Must be present in this folder for the app to run.
-- `requirements.txt`  
-  - Lists exact package names (and version constraints) needed to run the app.
-- `README.md`  
-  - Provides project overview and detailed setup and usage instructions.
+- `data/xrp.csv`
+  - Historical XRP-USD dataset containing price and market data used by the dashboard.
+
+- `images/`
+  - Contains dashboard screenshots used in the README preview section.
+
+- `requirements.txt`
+  - Lists required Python packages and dependencies.
+
+- `README.md`
+  - Project overview, setup instructions, dashboard features, and usage details.
 
 ---
 
